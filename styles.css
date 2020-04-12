@@ -1,0 +1,82 @@
+body {
+  background-color: #d3fffb;
+  width: 50%;
+  font-size: 22px;
+  text-align: justify; }
+  body h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    background: #fdd3d3; }
+  body h2 {
+    text-align: center;
+    font-size: 30px; }
+  body button {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    background-color: aquamarine;
+    text-align: left; }
+  body button:hover {
+    background-color: blue; }
+  body table {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px; }
+  body th, body td {
+    border: 1px solid black; }
+  @media print {
+    body .main {
+      display: none; } }
+  body .main button {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: beige; }
+  body .vessel {
+    color: red;
+    font-style: italic; }
+  body #name {
+    color: darkblue;
+    font-style: italic; }
+  body img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+  body table {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+  body li {
+    list-style-type: none; }
+  body .main button {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: beige; }
+  body #name {
+    color: darkblue;
+    font-style: italic; }
+  body .france, body .malta, body .bahamas {
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 10% 100%;
+    background-position-x: center; }
+  body .france {
+    background-image: url("france.png"); }
+  body .malta {
+    background-image: url("malta.png"); }
+  body .bahamas {
+    background-image: url("bahamas.png"); }
+
+/*# sourceMappingURL=styles.css.map */
